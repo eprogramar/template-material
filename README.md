@@ -15,4 +15,4 @@ Basic Template with:
 
 [0]: img/material-design-logo.png
 [1]: img/twitter-bootstrap-logo.png
-[2]: fontawesome-logo.png
+[2]: img/fontawesome-logo.png
