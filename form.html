@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>e-Tasks</title>
+
+		<!-- BEGIN META -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="keywords" content="eprogramar, spring, springframework, springioc, springdata, springboot">
+		<meta name="description" content="e-Programar Treinamentos">
+		<!-- END META -->
+
+		<!-- BEGIN STYLESHEETS -->
+		<link rel="icon" type="image/png" href="img/logo-favicon.png" />
+		<link href='http://fonts.googleapis.com/css?family=Roboto:300italic,400italic,300,400,500,700,900' rel='stylesheet' type='text/css'/>
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.css" />
+		<link type="text/css" rel="stylesheet" href="css/materialadmin.css" />
+		<link type="text/css" rel="stylesheet" href="css/font-awesome.min.css" />
+		<link type="text/css" rel="stylesheet" href="css/material-design-iconic-font.min.css" />		
+		<!-- END STYLESHEETS -->
+
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		<script type="text/javascript" src="js/html5shiv.js?1403934957"></script>
+		<script type="text/javascript" src="js/respond.min.js?1403934956"></script>
+		<![endif]-->
+	</head>
+	<body class="menubar-hoverable header-fixed ">
+
+		<!-- BEGIN HEADER-->
+		<header id="header" >
+			<div class="headerbar">
+
+				<!-- BEGIN Logo -->
+				<div class="headerbar-left">
+					<ul class="header-nav header-nav-options">
+						<li class="header-nav-brand" >
+							<div class="brand-holder">
+								<a href="index.html">	
+									<span class="text-lg text-bold text-primary">
+										<img src="img/eprogramar-logo.png" alt="e-Programar">
+									</span>
+								</a>
+							</div>
+						</li>
+						<li>
+							<a class="btn btn-icon-toggle menubar-toggle" data-toggle="menubar" href="javascript:void(0);">
+								<i class="fa fa-bars"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<!-- /END Logo -->
+
+				<!-- BEGIN User Data -->
+				<div class="headerbar-right">
+					<ul class="header-nav header-nav-profile">
+						<li class="dropdown">
+							<a href="javascript:void(0);" class="dropdown-toggle ink-reaction" data-toggle="dropdown">
+								<img src="img/avatar-default.png?1403934956" alt="" />
+								<span class="profile-info">
+									Admin
+									<small>User Administrator</small>
+								</span>
+							</a>
+							<ul class="dropdown-menu animation-dock">
+								<li class="dropdown-header">Profile</li>
+								<li>
+									<a href="#">
+										<i class="fa fa-fw fa-list-alt text-default"></i> Edit profile
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<i class="fa fa-fw fa-key text-default"></i> Reset password
+									</a>
+								</li>								
+								<li class="divider"></li>
+								<li>
+									<a href="#">
+										<i class="fa fa-fw fa-power-off text-danger"></i> Logout
+									</a>
+								</li>
+							</ul><!--end .dropdown-menu -->
+						</li><!--end .dropdown -->
+					</ul><!--end .header-nav-profile -->
+				</div><!--end #header-navbar-collapse -->
+				<!-- /END User Data -->
+
+
+			</div>
+		</header>
+		<!-- END HEADER-->
+
+		<!-- BEGIN BASE -->
+		<div id="base">
+
+			<!-- BEGIN CONTENT-->
+			<div id="content">
+				<section>
+					<div class="section-body">
+						<div class="col-lg-offset-1 col-md-10 col-sm-10">
+							<div class="card">						
+								<div class="card-body">
+									<form class="form" role="form">
+										<div class="form-group">
+											<div class="input-group">
+												<div class="input-group-content">
+													<input type="text" class="form-control" id="amount9">
+													<label for="amount9">Amount</label>
+												</div>
+												<span class="input-group-addon">.00</span>
+											</div>
+										</div><!--end .form-group -->
+										<div class="form-group">
+											<div class="input-group">
+												<span class="input-group-addon"><i class="fa fa-usd fa-lg"></i></span>
+												<div class="input-group-content">
+													<input type="text" class="form-control" id="dollars9">
+													<label for="dollars9">Dollars</label>
+												</div>
+												<span class="input-group-addon">.00</span>
+											</div>
+										</div><!--end .form-group -->
+										<div class="form-group">
+											<div class="input-group">
+												<span class="input-group-addon"><span class="glyphicon glyphicon-user fa-lg"></span></span>
+												<div class="input-group-content">
+													<input type="text" class="form-control" id="username9">
+													<label for="username9">Username</label>
+												</div>
+											</div>
+										</div><!--end .form-group -->
+										<div class="form-group">
+											<div class="input-group">
+												<div class="input-group-addon">
+													<div class="checkbox checkbox-inline checkbox-styled">
+														<label>
+															<input type="checkbox">
+														</label>
+													</div>
+												</div>
+												<div class="input-group-content">
+													<input type="text" class="form-control" id="groupcheckbox9">
+													<label for="groupcheckbox9">Checkbox</label>
+												</div>
+											</div>
+										</div><!--end .form-group -->
+										<div class="form-group">
+											<div class="input-group">
+												<div class="input-group-content">
+													<input type="text" class="form-control" id="groupbutton9">
+													<label for="groupbutton9">Button</label>
+												</div>
+												<div class="input-group-btn">
+													<button class="btn btn-default" type="button">Go!</button>
+												</div>
+											</div>
+										</div><!--end .form-group -->
+										<div class="form-group">
+											<div class="input-group">
+												<div class="input-group-content">
+													<input type="text" class="form-control" id="doublegroupbutton9">
+													<label for="doublegroupbutton9">Button</label>
+												</div>
+												<div class="input-group-btn">
+													<button type="button" class="btn btn-default" tabindex="-1">Action</button>
+													<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" tabindex="-1">
+														<span class="caret"></span>
+													</button>
+													<ul class="dropdown-menu pull-right" role="menu">
+														<li><a href="#">Action</a></li>
+														<li><a href="#">Another action</a></li>
+														<li><a href="#">Something else here</a></li>
+														<li class="divider"></li>
+														<li><a href="#">Separated link</a></li>
+													</ul>
+												</div>
+											</div><!--end .input-group -->
+										</div><!--end .form-group -->
+										<div class="form-group">
+											<div class="col-xs-12 text-right">
+												<button class="btn btn-primary btn-raised" type="submit">Login</button>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+
+					</div><!--end .section-body -->
+				</section>
+			</div><!--end #content-->
+			<!-- END CONTENT -->
+
+			<!-- BEGIN MENUBAR-->
+			<div id="menubar" class="menubar-inverse ">
+				<div class="menubar-fixed-panel">
+					<div>
+						<a class="btn btn-icon-toggle btn-default menubar-toggle" data-toggle="menubar" href="javascript:void(0);">
+							<i class="fa fa-bars"></i>
+						</a>
+					</div>
+					<div class="expanded">
+						<a href="#">
+							<span class="text-lg text-bold text-primary ">
+								<img src="img/eprogramar-logo.png" alt="e-Programar">
+							</span>
+						</a>
+					</div>
+				</div>
+				<div class="menubar-scroll-panel">
+
+					<!-- BEGIN MAIN MENU -->
+					<ul id="main-menu" class="gui-controls">
+
+						<!-- BEGIN DASHBOARD -->
+						<li>
+							<a href="index.html" class="active">
+								<div class="gui-icon">
+									<i class="md md-home"></i>
+								</div>
+								<span class="title">Dashboard</span>
+							</a>
+						</li><!--end /menu-li -->
+						<!-- END DASHBOARD -->
+
+						<!-- BEGIN MENU -->
+						<li class="gui-folder">
+							<a>
+								<div class="gui-icon"><i class="fa fa-tasks" aria-hidden="true"></i></div>
+								<span class="title">Tasks</span>
+							</a>
+							<!--start submenu -->
+							<ul>
+								<li>
+									<a href="table.html" >
+										<span class="title">
+											<i class="fa fa-table"></i>&nbsp;&nbsp;Table
+										</span>
+									</a>
+								</li>
+								<li>
+									<a href="form.html" >
+										<span class="title">
+											<i class="fa fa-list-alt"></i>&nbsp;&nbsp;Form
+										</span>
+									</a>
+								</li>	
+								<li>
+									<a href="login.html" >
+										<span class="title">
+											<i class="fa fa-user"></i>&nbsp;&nbsp;Login
+										</span>
+									</a>
+								</li>	
+								<li>
+									<a href="blank.html" >
+										<span class="title">
+											<i class="fa fa-file-o"></i>&nbsp;&nbsp;Blank
+										</span>
+									</a>
+								</li>																						
+							</ul><!--end /submenu -->
+						</li><!--end /menu-li -->
+						<!-- END MENU -->
+
+					</ul><!--end .main-menu -->
+					<!-- END MAIN MENU -->
+
+					<div class="menubar-foot-panel">
+						<small class="no-linebreak hidden-folded">
+							<span class="opacity-75">
+								Copyright &copy; 2016&nbsp;
+							</span> 
+							<i class="fa fa-graduation-cap"></i>&nbsp;
+							<strong class="text-primary">e-Programar</strong>
+						</small>
+					</div>
+					
+				</div><!--end .menubar-scroll-panel-->
+			</div><!--end #menubar-->
+			<!-- END MENUBAR -->
+
+		</div><!--end #base-->
+		<!-- END BASE -->
+
+		<!-- BEGIN JAVASCRIPT -->
+		<script src="js/jquery-1.11.2.min.js"></script>
+		<script src="js/jquery-migrate-1.2.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/spin.min.js"></script>
+		<script src="js/jquery.autosize.min.js"></script>
+		<script src="js/jquery.nanoscroller.min.js"></script>
+		<script src="js/App.js"></script>
+		<script src="js/AppNavigation.js"></script>
+		<script src="js/AppOffcanvas.js"></script>
+		<script src="js/AppCard.js"></script>
+		<script src="js/AppForm.js"></script>
+		<script src="js/AppNavSearch.js"></script>
+		<script src="js/AppVendor.js"></script>
+		<script src="js/Demo.js"></script>
+
+		<!-- END JAVASCRIPT -->
+
+	</body>
+</html>
