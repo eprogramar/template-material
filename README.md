@@ -6,7 +6,7 @@ Basic Template with:
 * Font Awesome   
 
 
-![Material Design, Twitter Bootstrap, Font Awesome][4]   
+![Material Design, Twitter Bootstrap, Font Awesome][3]   
 
 
 [0]: img/material-design-logo.png
