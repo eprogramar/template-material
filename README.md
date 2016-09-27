@@ -5,7 +5,7 @@ Basic Template with:
 * Twitter Bootstrap   
 * Font Awesome   
 
-![Material Design][0]   
+![Material Design](img/material-design-logo.png =100x20)
 
 ![Twitter Bootstrap][1]   
 
